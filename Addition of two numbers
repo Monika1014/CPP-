@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,m,sum;
+    cout<<"Enter two numbers : ";
+    cin>>n;
+    cin>>m;
+    sum=n+m;
+    cout<<"Addition of two numbers are "<<sum;
+
+    return 0;
+}
