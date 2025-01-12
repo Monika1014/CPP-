@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,m,sub;
+    cout<<"Enter two numbers : ";
+    cin>>n;
+    cin>>m;
+    sub=n-m;
+    cout<<"Subtract of two numbers is "<<sub;
+
+    return 0;
+}
