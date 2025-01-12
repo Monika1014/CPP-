@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,m,mod;
+    cout<<"Enter two numbers : ";
+    cin>>n;
+    cin>>m;
+    mod=n%m;
+    cout<<"Modulus of two numbers are "<<mod;
+    return 0;
+}
