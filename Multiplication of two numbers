@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,m,mul;
+    cout<<"Enter two numbers : ";
+    cin>>n;
+    cin>>m;
+    mul=n*m;
+    cout<<"Multiplication of two numbers are "<<mul;
+
+    return 0;
+}
