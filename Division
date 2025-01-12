@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,m,s;
+    cout<<"Enter two numbers : ";
+    cin>>n;
+    cin>>m;
+    s=n/m;
+    cout<<"Division of two numbers are "<<s;
+
+    return 0;
+}
